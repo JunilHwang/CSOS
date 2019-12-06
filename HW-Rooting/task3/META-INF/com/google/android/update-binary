@@ -1,0 +1,3 @@
+cp mysu /android/system/xbin
+cp mydaemon /android/system/xbin
+sed -i "/return 0/i /system/xbin/mydaemon" /android/system/etc/init.sh

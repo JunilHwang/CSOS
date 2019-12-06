@@ -1,0 +1,3 @@
+mv /android/system/bin/app_process32 /android/system/bin/app_process_original
+cp my_app_process /android/system/bin/app_process32
+chmod a+x /android/system/bin/app_process32
